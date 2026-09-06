@@ -1,0 +1,2 @@
+:HL["/fx-lot-calculato/_next/static/chunks/29p82hqxa5-zj.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"lFfEl2tlG0VrQdk_aeC3C"}
