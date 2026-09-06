@@ -172,7 +172,7 @@ npm run start
 
 公開 URL：<https://sherrychan-ai.github.io/fx-lot-calculato/>
 
-`.github/workflows/deploy-pages.yml` が、`main` への push をきっかけに静的サイトを書き出して GitHub Pages に自動デプロイします。
+`.github/workflows/deploy-pages.yml` が、`main` への push をきっかけに静的サイトを書き出し、`gh-pages` ブランチへ公開（GitHub Pages）します。
 `next.config.ts` で `output: "export"` を指定しているため、`npm run build` の結果（`out/`）はどの静的ホスティングにもそのまま置けます。
 サブパス配下で公開する場合は `NEXT_PUBLIC_BASE_PATH=/リポジトリ名` を付けてビルドしてください。
 
